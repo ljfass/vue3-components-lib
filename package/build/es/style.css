@@ -1,3 +1,29 @@
+.ljf-input {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: #000000d9;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+.ljf-input::placeholder {
+  color: #bfbfbf;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 .ljf-button {
   display: inline-block;
   line-height: 1;
@@ -26,30 +52,4 @@
   background: #66b1ff;
   border-color: #66b1ff;
   color: #fff;
-}
-.ljf-input {
-  box-sizing: border-box;
-  margin: 0;
-  font-variant: tabular-nums;
-  list-style: none;
-  font-feature-settings: "tnum";
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  min-width: 0;
-  padding: 4px 11px;
-  color: #000000d9;
-  font-size: 14px;
-  line-height: 1.5715;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #d9d9d9;
-  border-radius: 2px;
-  transition: all 0.3s;
-}
-.ljf-input::placeholder {
-  color: #bfbfbf;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
 }

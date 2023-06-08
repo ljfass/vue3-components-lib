@@ -39,8 +39,8 @@ export default defineConfig({
     },
     lib: {
       entry: path.resolve(__dirname, "./index.ts"),
-      // name: "yuntuUi",
-      // fileName: "yuntu-ui",
+      name: "YuntuUi",
+      fileName: "yuntu-ui",
       // formats: ["es", "cjs"], // 默认是['es', 'umd']，如果使用了多个配置入口，则是['es', 'cjs']
     },
   },
@@ -49,7 +49,7 @@ export default defineConfig({
     dts({
       entryRoot: "./src",
       //指定使用的tsconfig.json为我们整个项目根目录下掉,如果不配置,你也可以在components下新建tsconfig.json
-      outputDir: ["../build/es/src", "../build/lib/src"],
+      outputDir: ["../build/es/src/types", "../build/lib/src/types"],
       tsConfigFilePath: "../../tsconfig.json",
     }),
     {

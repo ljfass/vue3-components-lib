@@ -9,7 +9,7 @@ import TheWelcome from "./components/TheWelcome.vue";
   <main>
     <ljf-button type="primary">按 钮</ljf-button>
     <!-- <ljf-input></ljf-input> -->
-    <Button type="primary">测试按钮1</Button>
+    <!-- <LJFButton type="primary">测试按钮1</LJFButton> -->
     <!-- <Input /> -->
   </main>
 </template>

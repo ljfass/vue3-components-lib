@@ -65,7 +65,7 @@ export default defineConfig({
           this.emitFile({
             type: "asset",
             fileName: key,
-            source: bundler.code.replace(/\.less/g, ".css"),
+            source: bundler.code.replace(/\.less\.js/g, ".css"),
           });
         }
       },

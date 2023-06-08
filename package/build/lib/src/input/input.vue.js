@@ -1,6 +1,6 @@
 "use strict";
 const vue = require("vue");
-require("./style/index.css.js");
+require("./style/index.css");
 const _hoisted_1 = {
   type: "text",
   class: "ljf-input"

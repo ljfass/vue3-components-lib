@@ -1,0 +1,13 @@
+{
+  "name": "@yuntulib/components",
+  "version": "1.0.18",
+  "description": "lib",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}

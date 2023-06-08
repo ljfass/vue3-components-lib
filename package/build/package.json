@@ -1,0 +1,22 @@
+{
+  "name": "@yuntulib/components",
+  "version": "1.0.19",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "release":"release-it",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "typings": "lib/index.d.ts"
+}

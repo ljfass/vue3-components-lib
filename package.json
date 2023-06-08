@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp -f package/components/scripts/build/index.ts"
+    "build": "gulp -f package/components/scripts/build/index.ts",
+    "publish": "gulp -f package/components/scripts/publish/index.ts"
   },
   "keywords": [],
   "author": "",

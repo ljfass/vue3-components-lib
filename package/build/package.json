@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "release":"release-it",
+  "release": "release-it",
   "files": [
     "es",
     "lib"
@@ -18,5 +18,9 @@
   ],
   "author": "",
   "license": "MIT",
-  "typings": "lib/index.d.ts"
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ljfass/vue3-components-lib.git"
+  }
 }

@@ -1,5 +1,5 @@
 <template>
-  <input type="password" />
+  <input type="text" class="ljf-input" />
 </template>
 <script lang="ts" setup>
 import "./style/index.less";

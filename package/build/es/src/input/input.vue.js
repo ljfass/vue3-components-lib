@@ -1,6 +1,9 @@
 import { defineComponent, openBlock, createElementBlock } from "vue";
 import "./style/index.css";
-const _hoisted_1 = { type: "password" };
+const _hoisted_1 = {
+  type: "text",
+  class: "ljf-input"
+};
 const _sfc_main = /* @__PURE__ */ defineComponent({
   ...{ name: "ljf-input" },
   __name: "input",

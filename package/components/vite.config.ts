@@ -39,8 +39,8 @@ export default defineConfig({
     },
     lib: {
       entry: path.resolve(__dirname, "./index.ts"),
-      name: "YuntuUi",
-      fileName: "yuntu-ui",
+      // name: "YuntuUi",
+      // fileName: "yuntu-ui",
       // formats: ["es", "cjs"], // 默认是['es', 'umd']，如果使用了多个配置入口，则是['es', 'cjs']
     },
   },

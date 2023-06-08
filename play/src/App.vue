@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
-import { Button } from "@yuntulib/components";
-import { Input } from "@yuntulib/components";
+// import { Button } from "@yuntulib/components";
+// import { Input } from "@yuntulib/components";
 </script>
 
 <template>
   <main>
     <ljf-button type="primary">按 钮</ljf-button>
-    <ljf-input></ljf-input>
+    <!-- <ljf-input></ljf-input> -->
     <Button type="primary">测试按钮1</Button>
-    <Input />
+    <!-- <Input /> -->
   </main>
 </template>
 

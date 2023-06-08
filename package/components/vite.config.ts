@@ -10,7 +10,7 @@ export default defineConfig({
     minify: false,
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
-      external: ["vue", /\.less/],
+      external: ["vue"],
       input: ["index.ts"],
       output: [
         {

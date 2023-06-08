@@ -1,6 +1,6 @@
 "use strict";
 const vue = require("vue");
-require("./style/index.css");
+require("./style/index.css.js");
 const _sfc_main = /* @__PURE__ */ vue.defineComponent({
   ...{ name: "ljf-button" },
   __name: "button",

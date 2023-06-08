@@ -1,5 +1,5 @@
 import { defineComponent, computed, openBlock, createElementBlock, normalizeClass, renderSlot } from "vue";
-import "./style/index.css";
+import "./style/index.css.js";
 const _sfc_main = /* @__PURE__ */ defineComponent({
   ...{ name: "ljf-button" },
   __name: "button",

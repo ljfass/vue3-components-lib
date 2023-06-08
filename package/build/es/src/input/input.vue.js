@@ -1,5 +1,5 @@
 import { defineComponent, openBlock, createElementBlock } from "vue";
-import "./style/index.css";
+import "./style/index.css.js";
 const _hoisted_1 = {
   type: "text",
   class: "ljf-input"
